@@ -1,0 +1,31 @@
+img {border:1px solid red;}
+
+h1 {background-color:black;}
+
+h1,h2 {color:grey;}
+
+.s>h2 {border:1px solid green;}
+
+#mon>h1 {color:pink;}
+
+#mon>*:not(h1) {border:1px solid red;}
+
+#mon>*:not(h2) {background-color:yellow;}
+
+#wed>h2:hover {color:green;}
+
+#tue>h2:hover,#mon>h2:hover {color:red;}
+
+h2:not(#wed>h2,#tue>h2,#mon>h2),h1 {color:pink;}
+
+ul>li:first-of-type {color:grey;}
+
+li:nth-child(2) {	color:red;}
+
+#tue span:first-of-type {	color:blue;}
+
+#tue span:nth-of-type(2) {font-size:200%;}
+
+ul>li:nth-of-type(9) {color:blue;}
+
+ul>li:nth-of-type(5n + 3) {color:green;}
