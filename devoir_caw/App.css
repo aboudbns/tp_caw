@@ -1,0 +1,35 @@
+.de{
+  background-color: white;
+  width: 240px;
+  height: 120px;
+  }
+.cont{
+  border-radius: 25px;
+  border: 2px solid #3b3b3a;
+  padding: 20px;
+  width: 239px;
+  height: 310px;
+  margin: auto;
+  text-align: center;
+  background-color: grey;
+  opacity: 1.2;
+  margin-top: 20px;
+}
+.win{
+  color: green;
+}
+.lose{
+  color: red;
+}
+
+.butt {
+  background-color:hsl(0, 0%, 91%);
+  color: black;
+  font-size: 30px; 
+  border-radius: 8px;}
+
+.round{color: white;}
+
+.pl{color: red;}
+.pw{color: green;}
+
